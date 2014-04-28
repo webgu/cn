@@ -1,0 +1,25 @@
+# Jekyll
+markdown: redcarpet
+permalink: /:categories/:title
+pygments: true
+
+baseurl: /en
+
+excerpt_separator: ""
+comments: true
+
+
+links:
+  - title: About
+    url: /en/about/
+  - title: Articles
+    url: /en/articles/
+  - title: Blog
+    url: /en/
+  - title: Category
+    url: /en/category/
+
+# Personal
+description: "Andy Lau / 刘松的博客"
+ga_id: UA-49813880-1
+name: Andy Lau
