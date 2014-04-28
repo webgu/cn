@@ -11,13 +11,13 @@ comments: true
 
 links:
   - title: About
-    url: /chn/about/
+    url: /cn/about/
   - title: Articles
-    url: /chn/articles/
+    url: /cn/articles/
   - title: Blog
-    url: /chn/
+    url: /cn/
   - title: Category
-    url: /chn/category/
+    url: /cn/category/
 
 # Personal
 description: "Andy Lau / 刘松的博客"
