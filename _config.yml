@@ -3,7 +3,7 @@ markdown: redcarpet
 permalink: /:categories/:title
 pygments: true
 
-baseurl: /chn
+baseurl: /cn
 
 excerpt_separator: ""
 comments: true
