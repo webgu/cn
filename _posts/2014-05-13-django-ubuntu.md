@@ -13,15 +13,15 @@ category: 技术
 我采用的是 ubuntu 12.04 版本 ＋ python 2.7 ，参考了 Ayman Farhat 和 PDX pixel文章，在此致谢。
 
 
-1. 更新部件
+更新部件
 
 {% highlight linux-config %} sudo apt-get update {% endhighlight %}
 
-2. 安装vim
+安装vim
 
 {% highlight linux-config %}sudo apt-get install vim{% endhighlight %}
 
-3. 安装pip (参考 https://pypi.python.org/pypi/pip/).
+安装pip (参考 https://pypi.python.org/pypi/pip/).
 
 {% highlight linux-config %}
 sudo apt-get install python-pip python-dev build-essential{% endhighlight %}
@@ -30,23 +30,23 @@ sudo apt-get install python-pip python-dev build-essential{% endhighlight %}
 {% highlight linux-config %}
 pip install --upgrade pip {% endhighlight %}
 
-4. 安装数据库和virtualenv
+安装数据库和virtualenv
 
 {% highlight linux-config %}pip apt-get install mysql-server{% endhighlight %}
 
 {% highlight linux-config %}pip install virtualenv{% endhighlight %}
 
-5. 开始virtualenv使用
+开始virtualenv使用
 
 {% highlight linux-config %}
 mkvirtualenv /home/mysite --no-site-packages{% endhighlight %}
 
-6. 安装Django
+安装Django
 
 {% highlight linux-config %}
 pip install Django==version number{% endhighlight %}
 
-7. 开始项目
+开始项目
 
 {% highlight linux-config %}
 mkdir /home/andy
@@ -56,7 +56,7 @@ source ./bin/activate
 django-admin.py startproject andy{% endhighlight %}
 
 
-8. 安装和配置数据库
+安装和配置数据库
 
 {% highlight html %}
 mysql -u root -p ***** (database name)
@@ -68,7 +68,7 @@ SHOW DATABASES;
 
 {% highlight linux-config %}vim andy/andy/settings.py{% endhighlight %}
 
-{% highlight css %}
+{% highlight html %}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Using 'mysql' for this tutorial.
@@ -81,14 +81,14 @@ DATABASES = {
 }
 {% endhighlight %}
 
-9. 还是数据库 (顺利很重要！！！)
+还是数据库 (顺利很重要！！！)
 
 {% highlight linux-config %}
 sudo apt-get install python-mysqldb
 sudo apt-get install libmysqlclient-dev
 pip install mysql-python{% endhighlight %}
 
-10. 同步
+同步
 {% highlight linux-config %}python manage.py syncdb{% endhighlight %}
 
 
