@@ -4,8 +4,6 @@ title: Linux上部署Django
 comments: true
 category: 技术
 ---
-<h2>{{page.title}}</h2>
-
 
 按照Django官方文档安装Django实在容易迷失，为此老汉写一贴。
 
