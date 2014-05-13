@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: Linux上部署Django
+title:  Linux 上部署 Django
 comments: true
 category: 技术
 ---
