@@ -63,7 +63,7 @@ SHOW DATABASES;
 {% endhighlight %}
 
 
-{% highlight linux-config %}vim andy/andy/settings.py{% endhighlith %}
+{% highlight linux-config %}vim andy/andy/settings.py{% endhighlight %}
 
 {% highlight mysql %}
 DATABASES = {
