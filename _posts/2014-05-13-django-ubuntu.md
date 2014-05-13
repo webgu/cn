@@ -4,8 +4,6 @@ title: Linux上部署Django
 comments: true
 category: 技术
 ---
-<h2>{{page.title}}</h2>
-
 
 按照Django官方文档安装Django实在容易迷失，为此老汉写一贴。
 
@@ -115,10 +113,8 @@ import os
 import sys
 import site
 
-# Add the site-packages of the chosen virtualenv to work with
 site.addsitedir('~/.virtualenvs/mysiteenv/local/lib/python2.7/site-packages')
 
-# Add the app's directory to the PYTHONPATH
 sys.path.append('/home/django_projects/mysite')
 sys.path.append('/home/django_projects/mysite/mysite')
 
