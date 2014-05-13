@@ -115,10 +115,8 @@ import os
 import sys
 import site
 
-# Add the site-packages of the chosen virtualenv to work with
 site.addsitedir('~/.virtualenvs/mysiteenv/local/lib/python2.7/site-packages')
 
-# Add the app's directory to the PYTHONPATH
 sys.path.append('/home/django_projects/mysite')
 sys.path.append('/home/django_projects/mysite/mysite')
 
