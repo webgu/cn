@@ -1,7 +1,6 @@
 ---
 layout: layout
 title:  Linux 上部署 Django
-comments: true
 category: 技术
 ---
 
