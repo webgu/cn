@@ -1,7 +1,6 @@
 ---
 layout: layout
 title: 黄金搭档：Jekyll 与 Github 搭建网站
-comments: true
 category: 技术
 ---
 <h2>{{page.title}}</h2>
