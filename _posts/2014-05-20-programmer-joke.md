@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 程序员笑话
-comments: true
 category: 杂记
 ---
 
