@@ -10,9 +10,9 @@ category: 杂记
 与众不同，只因我们更懂你。我们认为码农是对你的侮辱，你无愧于创意师。这个团体，急切需要两名php程序员的带领，走向康庄大道。
 
 
-{% highlight ruby %}
+{% highlight html %}
 
-
+<?php
 
 class senior_php_programmer 
 {  
@@ -59,7 +59,7 @@ function Requirement(){
 
 }
 
-
+?>
 
 
 
