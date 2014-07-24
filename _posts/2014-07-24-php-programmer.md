@@ -10,7 +10,7 @@ category: 杂记
 与众不同，只因我们更懂你。我们认为码农是对你的侮辱，你无愧于创意师。这个团体，急切需要两名php程序员的带领，走向康庄大道。
 
 
-{% highlight css %}
+{% highlight html %}
 
 <? php
 
@@ -68,6 +68,9 @@ function Requirement(){
 
 
 简历投递： love@liusongx.com
+
 公司地址：长沙市解放东路38号华瑞大厦后栋908室
+
 联系电话：15111200838 （刘经理）
+
 
