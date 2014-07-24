@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 飞鱼科技招聘
+title: 快鱼科技招聘
 category: 杂记
 ---
 
