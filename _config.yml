@@ -1,6 +1,6 @@
 # Jekyll
 markdown: redcarpet
-permalink: /:categories/:title
+permalink: /:year/:month/:day/:title/
 pygments: true
 
 baseurl: /cn
