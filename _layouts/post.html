@@ -4,7 +4,8 @@ layout: post-final
 
 <section id="post">
   <h1 style="align:left;">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %e, %Y" }}</time><span class="reading-time">{{ page.content | number_of_words | divided_by:180 }} min read</span>
+  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %e, %Y" }}</time>
+  <hr />
   {{ content }}
 </section>
 
