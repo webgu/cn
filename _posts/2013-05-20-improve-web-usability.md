@@ -37,6 +37,8 @@ category: 杂记
 
 做到这点毫无疑问会让你的用户感到愉悦。我们拿 MailChimp 来做个经典例子。
 
+![pic](/assets/img/posts/7.jpg "mailchimp")
+
 
 MailChimp 的这个页面非常简单。提高可用性其实无需做什么开创性的设计，只需让对的东西出现在对的位置（用户期望他们出现的位置）就可以了。
 
